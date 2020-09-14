@@ -1,0 +1,1 @@
+Suponhamos que você seja um(a) garçom/garçonete de um restaurante e deseja saber qual será o valor da sua próxima gorjeta por atender uma mesa. Você está com sorte! Temos um belo ajudante que te ajudará nas suas finanças.
