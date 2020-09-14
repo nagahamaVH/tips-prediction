@@ -15,7 +15,13 @@ st.title("Qual será a minha gorjeta?")
 st.markdown(subtitle)
 
 input_bill = st.number_input('Conta a pagar (USD)', min_value=0.0)
+if input_bill > 50.81:
+    st.markdown(warning_bill, unsafe_allow_html=True)
+
 input_group = st.number_input('Número de pessoas na mesa', min_value=1)
+if input_group > 6:
+    st.markdown(warning_group, unsafe_allow_html=True)
+
 input_time = st.selectbox("Período", sb_period)
 input_day = st.selectbox("Dia da semana", sb_day)
 input_sex = st.selectbox('Gênero do pagante da conta', sb_sex)
