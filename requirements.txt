@@ -28,7 +28,9 @@ jedi==0.17.2
 Jinja2==2.11.2
 jmespath==0.10.0
 jsonschema==3.2.0
+jupyter==1.0.0
 jupyter-client==6.1.7
+jupyter-console==6.2.0
 jupyter-core==4.6.3
 jupyterlab-pygments==0.1.1
 MarkupSafe==1.1.1
@@ -60,6 +62,8 @@ pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytz==2020.1
 pyzmq==19.0.2
+qtconsole==4.7.7
+QtPy==1.9.0
 requests==2.24.0
 s3transfer==0.3.3
 Send2Trash==1.5.0
