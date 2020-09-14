@@ -16,7 +16,7 @@ input_time = st.selectbox("Período", sb_period)
 input_day = st.selectbox("Dia da semana", sb_day)
 input_sex = st.selectbox('Gênero', sb_sex)
 input_smoker = st.checkbox("Mesa para fumante", value=False)
-predict_button = st.button("shazam karai")
+predict_button = st.button("Predizer gorjeta")
 
 model = pickle.load(open("model.pickle.dat", "rb"))
 
