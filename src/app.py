@@ -14,12 +14,12 @@ model = pickle.load(open("src/model.pickle.dat", "rb"))
 st.title("Qual será a minha gorjeta?")
 st.markdown(subtitle)
 
-input_bill = st.number_input('Conta a pagar', min_value=0.0)
-input_group = st.number_input('Número de pessoas', min_value=1)
+input_bill = st.number_input('Conta a pagar (USD)', min_value=0.0)
+input_group = st.number_input('Número de pessoas na mesa', min_value=1)
 input_time = st.selectbox("Período", sb_period)
 input_day = st.selectbox("Dia da semana", sb_day)
-input_sex = st.selectbox('Gênero', sb_sex)
-input_smoker = st.checkbox("Mesa para fumante", value=False)
+input_sex = st.selectbox('Gênero do pagante da conta', sb_sex)
+input_smoker = st.checkbox("Área de fumante", value=False)
 predict_button = st.button("Predizer gorjeta")
 
 if predict_button:
